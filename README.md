@@ -118,15 +118,15 @@ If you receive a User Account Control notice, choose Yes.
 #### Organization Login Portal,Individual Donor Login Portal and Admin Login Portal:
 ![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(562).png)
 #### Admin Panel(After Login):
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(570).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(408).png)
 #### Organization's Dashboard:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(594).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(594).png)
 #### Login with Google Association View :
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(563).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(563).png)
 #### Account Verification Link:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(569).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(569).png)
 #### Admin Viewing Donors Of Organization:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(572).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(572).png)
 #### User can Check Blood Stocks:
 ![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(590).png)
 #### Managing The Account:
@@ -134,7 +134,7 @@ If you receive a User Account Control notice, choose Yes.
 #### Upcoming Events:
 ![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(592).png)
 #### Password Changing Panel:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(597).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(423).png)
 
 
 ## Furture Scope:
