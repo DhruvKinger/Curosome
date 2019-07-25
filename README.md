@@ -7,7 +7,7 @@ It is a project under which diff donors can register and with their address we c
 
 ### Advanced Features Implemented :
 #### Google SignIn Facility:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(595).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(624).png)
 #### Forgot Password Credentials:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(420).png)
 #### Notification: 
