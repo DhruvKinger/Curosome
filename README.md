@@ -1,5 +1,5 @@
 # Curosome:A Random Question Paper Generator
-The question paper generator is a web based application that is being designed to generate question paper out of set of different sets of question paper provided by the Teachers.The question paper generator is more reliable than any human. It is now being used in all type of Educational institutions because of their randomness to create the question paper from the given set of questions.A random Query will create a Question Paper according to the Paper Pattern and  Pdf can be generated that can be shared. 
+Curosome is a web based application that is being designed to generate question paper out of set of different sets of question paper provided by the Teachers.The question paper generator is more reliable than any human. It is now being used in all type of Educational institutions because of their randomness to create the question paper from the given set of questions.A random Query will create a Question Paper according to the Paper Pattern and  Pdf can be generated that can be shared. 
 
 #### Website's Home Page:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(406).png)
@@ -36,12 +36,12 @@ Entity Framework 6.0 is used with the Database First approach is followed In thi
 | ------------- | ------------- |
 | dhruvkinger813@gmail.com | India99@ |
 
-### Default Login Credentials For Individual Donor
+### Default Login Credentials For Teacher
 | Username | Password |
 | ------------- | ------------- |
 | dtilak1999@gmail.com | dTilak99|
 
-### Default Login Credentials For Organization
+### Default Login Credentials For Coordinator
 | Username | Password |
 | ------------- | ------------- |
 | cse1785@gmail.com | Cse1785@ |
