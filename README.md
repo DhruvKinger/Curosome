@@ -123,16 +123,20 @@ If you receive a User Account Control notice, choose Yes.
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(407).png)
 #### Admin Creating Departments:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(409).png)
+#### Registration Form:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(417).png)
 #### Admin Creating Semsters:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(410).png)
 #### Admin Creating Coordinators:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(411).png)
 #### Admin Updating Subjects:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(412).png)
+#### Questions Uploaded By Teacher:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(419).png)
 #### Admin Viewing Uploaded Questions:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(413).png)
 #### Excel Downloaded File:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(427).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(431).png)
 #### Password Changing Panel:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(423).png)
 #### Admin Creating Pdf Of Question Paper:
