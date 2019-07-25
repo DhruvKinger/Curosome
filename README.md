@@ -8,10 +8,12 @@ It is a project under which diff donors can register and with their address we c
 ### Advanced Features Implemented :
 #### Google SignIn Facility:
 ![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(595).png)
-#### User Account Management through UserIdentity:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(564).png)
-#### Searching Functionalities: 
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(565).png)
+#### Forgot Password Credentials:
+![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(420).png)
+#### Notification: 
+![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(421).png)
+#### Token Sent on Email For Password Change: 
+![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(422).png)
 
 
 + [Development](#development)
@@ -143,6 +145,8 @@ If you receive a User Account Control notice, choose Yes.
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(415).png)
 #### Generated Pdf:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(416).png)
+#### Some Help to Teachers:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(430).png)
 
 ## Furture Scope:
 * Windows application development for other mac and Linux, so that the Rudhir: A BDMS is easily accessible to user easily anywhere and get the benefits. The core benefit of the application development lies in improved quality of interface through timely response. Moreover, windows applications support vital features like uploading pictures.
