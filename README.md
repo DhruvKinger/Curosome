@@ -149,8 +149,6 @@ If you receive a User Account Control notice, choose Yes.
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(430).png)
 
 ## Furture Scope:
-* Windows application development for other mac and Linux, so that the Rudhir: A BDMS is easily accessible to user easily anywhere and get the benefits. The core benefit of the application development lies in improved quality of interface through timely response. Moreover, windows applications support vital features like uploading pictures.
-*	We can check location from GPS and it can easily tell other Individual Donor to donate blood at this place where blood is required.
-* The system could also be enhanced by adding the voice response system through the voice control system, which would help the user to quickly react instead of typing.
-* We can add report submission forms to Individual Donors. So that it must be verified that one who is willing to give blood is free   from diseases. 
-
+* The web application can be upgraded to a very high responsive and well designed application in the future with many addition of different features.
+*	In future the web application can also support of making of circles which would include a list of members as added by the circle leader and they all can upload question sets and then at the time of generation the generated question set will be delivered to the circle leader and not anyone else and thus reducing the chance of question paper leakage. 
+*  The feature of rewards and quizzes can also be added later which will contain all the question from all the uploaders related to the specific subject and therefore one can go through the quiz and if answered 90% correct than can be rewarded. There are innumerable opportunities and ways to make this web application more useful, featured and fun for the general visitors. 
