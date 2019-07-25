@@ -1,5 +1,5 @@
 # Curosome:A Random Question Paper Generator
-Curosome is a web based application that is being designed to generate question paper out of set of different sets of question paper provided by the Teachers.The question paper generator is more reliable than any human. It is now being used in all type of Educational institutions because of their randomness to create the question paper from the given set of questions.A random Query will create a Question Paper according to the Paper Pattern and  Pdf can be generated that can be shared. 
+Curosome is a web based application that is being designed to generate question paper out of set of different sets of question paper provided by the Teachers.The Question Paper generator is more reliable than any human. It is now being used in all type of Educational Institutions because of their Randomness to create the Question Paper from the given set of Questions.A random Query will create a Question Paper According to the Paper Pattern and  Pdf can be generated that can be shared. 
 
 #### Website's Home Page:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(406).png)
