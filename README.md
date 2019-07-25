@@ -128,7 +128,7 @@ If you receive a User Account Control notice, choose Yes.
 #### Admin Creating Semsters:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(410).png)
 #### Admin Creating Coordinators:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(411).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(414).png)
 #### Admin Updating Subjects:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(412).png)
 #### Questions Uploaded By Teacher:
