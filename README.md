@@ -1,5 +1,5 @@
 # Curosome:A Random Question Paper Generator
-It is a project under which diff donors can register and with their address we can tell them you should donate your blood at these banks.Adding on Users who need blood don't require to register then can easily view the stock available for specific blood and can get it through the help of Organizations.Also diff Hospitals can register here and can have blood stock updated. Admin Update camps that are going to take place and these can be viewed by everyone. 
+The question paper generator is a web based application that is being designed to generate question paper out of set of different sets of question paper provided by the Teachers.The question paper generator is more reliable than any human. It is now being used in all type of Educational institutions because of their randomness to create the question paper from the given set of questions.A random Query will create a Question Paper according to the Paper Pattern and  Pdf can be generated that can be shared. 
 
 #### Website's Home Page:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(406).png)
