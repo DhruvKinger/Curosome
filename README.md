@@ -119,23 +119,26 @@ If you receive a User Account Control notice, choose Yes.
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(418).png)
 #### Admin Panel(After Login):
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(408).png)
-#### Organization's Dashboard:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(594).png)
-#### Login with Google Association View :
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(563).png)
-#### Account Verification Link:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(569).png)
-#### Admin Viewing Donors Of Organization:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(572).png)
-#### User can Check Blood Stocks:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(590).png)
-#### Managing The Account:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(596).png)
-#### Upcoming Events:
-![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(592).png)
+#### Contact Us:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(407).png)
+#### Admin Creating Departments:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(409).png)
+#### Admin Creating Semsters:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(410).png)
+#### Admin Creating Coordinators:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(411).png)
+#### Admin Updating Subjects:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(412).png)
+#### Admin Viewing Uploaded Questions:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(413).png)
+#### Excel Downloaded File:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(427).png)
 #### Password Changing Panel:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(423).png)
-
+#### Admin Creating Pdf Of Question Paper:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(415).png)
+#### Generated Pdf:
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(416).png)
 
 ## Furture Scope:
 * Windows application development for other mac and Linux, so that the Rudhir: A BDMS is easily accessible to user easily anywhere and get the benefits. The core benefit of the application development lies in improved quality of interface through timely response. Moreover, windows applications support vital features like uploading pictures.
