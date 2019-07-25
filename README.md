@@ -116,7 +116,7 @@ If you receive a User Account Control notice, choose Yes.
 ## Screenshots
 
 #### Admin,HOD,Coordinator and Teacher Login Portal :
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(418).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(418).png)
 #### Admin Panel(After Login):
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(408).png)
 #### Organization's Dashboard:
@@ -128,11 +128,11 @@ If you receive a User Account Control notice, choose Yes.
 #### Admin Viewing Donors Of Organization:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(572).png)
 #### User can Check Blood Stocks:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(590).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(590).png)
 #### Managing The Account:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(596).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(596).png)
 #### Upcoming Events:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(592).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(592).png)
 #### Password Changing Panel:
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(423).png)
 
