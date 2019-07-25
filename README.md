@@ -102,18 +102,14 @@ If you receive a User Account Control notice, choose Yes.
     Next, status screens appear that show the progress of your Visual Studio installation.
 
 ## Features
-+ Admin can update events(say a BloodCamp being Organized)and Admin have the right to Block someone's account if he finds that their records are false or some other issue is there.
++ Admin can create Subjects,Teachers,Departments,Semsters(say CSE,MCA Department)and Admin have the right to create Semsters and their different Subjects.
 + Admin is more of the supreme or you can say a Senior Vice President Person who commands and monitors the progress.
-+ Organization can access only the its portal but can do a lot of stuff their.It can add Donors as much as they wish.If a person contacts them for blood,they just need to click a button and email will be sent to all the Donors of the Organization whose blood group matches with the required one.
-+ Admin can see all the processes going on say who has contacted which Organization on what date for which blood group.
-+ Admin  can *Update* data and *Mark As Deleted**(i.e flag the data in table from n to y/ One of the *important* feature used in the Companies at big level).As no data is ever deleted it just *Mark As Deleted**.
-+ Individual Donors can register and after registration they are shown with the List of BloodBanks in his state where blood is required.
-+ We would be able to generate the dynamic reports through *Google API's and JSON* which would help the authority to find different important information System about the Processes going on.
-+ *Login and Logout Functionaly is with the help of User.Identity Package*.
-+ Users who need Blod not reuire to register they can directly check blood they require after tht they will be shown with Organizations having Blood Stocks plus the Individual Donors who can provide Blood too.
-+ Organizations and Individual Donors can also register through Google SignIn.If they register normally then firstly email is sent which is verified through token only then their account is activated.
-
-
++ Teacher can access its portal and he can download the format of the Question Paper to be Uploaded.After filling in the Excel Sheet with data he can Upload that File.
++ All those Questions from different teachers from different Departments and from different Subjects are saved in the Database.
++ Admin  can View all that data and now come his work to Create Question Paper for All the Deartments.
++ Admin Choose the Department,Semster,Subject and All the Questions related to those filters will be displayed.He will click on a Button and then Question Paper will be Generated on basis of Randomization Algo.
++ Now that Generated Quesion Paper can be converted into Pdf which can be shared with the Respective Departments of The University.
++ Some Extra Features are Added inn the Project is Signin with Google,Token Code for Account Verification and Rotvalia Package for Pdf Generation.
 
 ## Screenshots
 
