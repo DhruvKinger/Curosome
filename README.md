@@ -115,8 +115,8 @@ If you receive a User Account Control notice, choose Yes.
 
 ## Screenshots
 
-#### Organization Login Portal,Individual Donor Login Portal and Admin Login Portal:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(562).png)
+#### Admin,HOD,Coordinator and Teacher Login Portal :
+![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(418).png)
 #### Admin Panel(After Login):
 ![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(408).png)
 #### Organization's Dashboard:
