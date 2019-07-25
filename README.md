@@ -9,11 +9,11 @@ It is a project under which diff donors can register and with their address we c
 #### Google SignIn Facility:
 ![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(595).png)
 #### Forgot Password Credentials:
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(420).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(420).png)
 #### Notification: 
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(421).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(421).png)
 #### Token Sent on Email For Password Change: 
-![](https://github.com/DhruvKinger/Rudhir-A-BDMS/blob/master/Forgithub/Screenshot%20(422).png)
+![](https://github.com/DhruvKinger/Curosome/blob/master/Forgithub/Screenshot%20(422).png)
 
 
 + [Development](#development)
