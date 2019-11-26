@@ -1,0 +1,26 @@
+﻿@model testingemailverification.Models.Semster
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>DETAILS:</h2>
+
+<div>
+    <h4>SEMSTER</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SemsterNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SemsterNo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.sid }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

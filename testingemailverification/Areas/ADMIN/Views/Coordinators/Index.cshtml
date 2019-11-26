@@ -1,0 +1,47 @@
+﻿@model IEnumerable<testingemailverification.Models.Coordinator>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>COORDINATORS:</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Department.DepartmentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Semster.SemsterNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CoordinatorName)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.DepartmentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Semster.SemsterNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CoordinatorName)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.cid }) |
+            @Html.ActionLink("Details", "Details", new { id = item.cid }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.cid })
+        </td>
+    </tr>
+}
+
+</table>

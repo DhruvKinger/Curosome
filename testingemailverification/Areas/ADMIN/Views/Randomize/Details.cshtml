@@ -1,0 +1,93 @@
+﻿@model testingemailverification.Models.Question
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>QUESTION PAPER</h2><br />
+<h3>@Html.ActionLink("GENERATE PDF", "GeneratePDF", new { id = Model.qid })</h3>
+
+<h5>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Department_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Semster_No)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Semster_No)
+        </dd>
+
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chapter1_twomarkque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chapter1_twomarkque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chapter1_fifteenmarkque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chapter1_fifteenmarkque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chapter2_twomarkque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chapter2_twomarkque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chapter2_fifteenmarkque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chapter2_fifteenmarkque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chapter3_twomarkque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chapter3_twomarkque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chapter3_fifteenmarkque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chapter3_fifteenmarkque)
+        </dd>
+
+    </dl>
+</h5>
+<p>
+    @Html.ActionLink("EDIT", "Edit", new { id = Model.qid }) 
+    @Html.ActionLink("BACK TO LIST", "Index")
+</p>

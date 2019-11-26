@@ -1,0 +1,37 @@
+﻿@model testingemailverification.Models.Question
+
+
+
+
+@Html.AntiForgeryToken()
+
+
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<h1>KEY POINTS:</h1>
+<h3 style="color:black">
+    1# Make Sure that row doesn't contain a NULL column.<br />
+    2# Want their quick filling:<br />
+    3# Suppose You have to fill same text in 200 rows.So,Simply do as:
+</h3>
+<h4 style="color:blue">
+    a)Write text in 1st Row,then place the cursor on bottom-right-corner of that cell.<br />
+    b)Now Drag the cursor downwards in the entire column this will automatically fill the entire column.
+</h4>
+<h3 style="color:black">4# If your Question is too large then what to do:</h3>
+<h4 style="color:blue">
+    a)Write complete question first then:<br />
+    b)In Home panel,Choose 'Wrap Text' this will automatically inc the size of cell acc to question size
+</h4><br />
+<h2>HOPE THEY MIGHT HELP</h2>
+<br /><br />
+
+<H4>@Html.ActionLink("BACK TO LIST", "UploadQuestions")</H4>
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

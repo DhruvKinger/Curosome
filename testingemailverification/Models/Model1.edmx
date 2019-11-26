@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Coordinator">
+          <Key>
+            <PropertyRef Name="cid" />
+          </Key>
+          <Property Name="cid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CoordinatorName" Type="varchar" MaxLength="50" />
+          <Property Name="scid" Type="int" Nullable="false" />
+          <Property Name="dcid" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="did" />
+          </Key>
+          <Property Name="did" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DepartmentName" Type="varchar" MaxLength="50" />
+          <Property Name="HOD" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="qid" />
+          </Key>
+          <Property Name="qid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Department Name" Type="varchar(max)" Nullable="false" />
+          <Property Name="Semster No" Type="int" Nullable="false" />
+          <Property Name="Subject Name" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter1_twomarkque" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter1_fifteenmarkque" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter2_twomarkque" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter2_fifteenmarkque" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter3_twomarkque" Type="varchar(max)" Nullable="false" />
+          <Property Name="chapter3_fifteenmarkque" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Semster">
+          <Key>
+            <PropertyRef Name="sid" />
+          </Key>
+          <Property Name="sid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SemsterNo" Type="int" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="subid" />
+          </Key>
+          <Property Name="subid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SubjectName" Type="varchar" MaxLength="60" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_coordinator_Department">
+          <End Role="Department" Type="Self.Department" Multiplicity="1" />
+          <End Role="Coordinator" Type="Self.Coordinator" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="did" />
+            </Principal>
+            <Dependent Role="Coordinator">
+              <PropertyRef Name="dcid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_coordinator_Semster">
+          <End Role="Semster" Type="Self.Semster" Multiplicity="1" />
+          <End Role="Coordinator" Type="Self.Coordinator" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Semster">
+              <PropertyRef Name="sid" />
+            </Principal>
+            <Dependent Role="Coordinator">
+              <PropertyRef Name="scid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="Coordinator" EntityType="Self.Coordinator" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Question" EntityType="Self.Question" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Semster" EntityType="Self.Semster" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_coordinator_Department" Association="Self.FK_coordinator_Department">
+            <End Role="Department" EntitySet="Department" />
+            <End Role="Coordinator" EntitySet="Coordinator" />
+          </AssociationSet>
+          <AssociationSet Name="FK_coordinator_Semster" Association="Self.FK_coordinator_Semster">
+            <End Role="Semster" EntitySet="Semster" />
+            <End Role="Coordinator" EntitySet="Coordinator" />
+          </AssociationSet>
+          </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Coordinator">
+          <Key>
+            <PropertyRef Name="cid" />
+          </Key>
+          <Property Name="cid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CoordinatorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="scid" Type="Int32" Nullable="false" />
+          <Property Name="dcid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Department" Relationship="Self.FK_coordinator_Department" FromRole="Coordinator" ToRole="Department" />
+          <NavigationProperty Name="Semster" Relationship="Self.FK_coordinator_Semster" FromRole="Coordinator" ToRole="Semster" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="did" />
+          </Key>
+          <Property Name="did" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DepartmentName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HOD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Coordinators" Relationship="Self.FK_coordinator_Department" FromRole="Department" ToRole="Coordinator" />
+        </EntityType>
+        <EntityType Name="Semster">
+          <Key>
+            <PropertyRef Name="sid" />
+          </Key>
+          <Property Name="sid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SemsterNo" Type="Int32" />
+          <NavigationProperty Name="Coordinators" Relationship="Self.FK_coordinator_Semster" FromRole="Semster" ToRole="Coordinator" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="subid" />
+          </Key>
+          <Property Name="subid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SubjectName" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_coordinator_Department">
+          <End Role="Department" Type="Self.Department" Multiplicity="1" />
+          <End Role="Coordinator" Type="Self.Coordinator" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="did" />
+            </Principal>
+            <Dependent Role="Coordinator">
+              <PropertyRef Name="dcid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_coordinator_Semster">
+          <End Role="Semster" Type="Self.Semster" Multiplicity="1" />
+          <End Role="Coordinator" Type="Self.Coordinator" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Semster">
+              <PropertyRef Name="sid" />
+            </Principal>
+            <Dependent Role="Coordinator">
+              <PropertyRef Name="scid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Coordinators" EntityType="Self.Coordinator" />
+          <EntitySet Name="Departments" EntityType="Self.Department" />
+          <EntitySet Name="Semsters" EntityType="Self.Semster" />
+          <EntitySet Name="Subjects" EntityType="Self.Subject" />
+          <AssociationSet Name="FK_coordinator_Department" Association="Self.FK_coordinator_Department">
+            <End Role="Department" EntitySet="Departments" />
+            <End Role="Coordinator" EntitySet="Coordinators" />
+          </AssociationSet>
+          <AssociationSet Name="FK_coordinator_Semster" Association="Self.FK_coordinator_Semster">
+            <End Role="Semster" EntitySet="Semsters" />
+            <End Role="Coordinator" EntitySet="Coordinators" />
+          </AssociationSet>
+          <EntitySet Name="Questions" EntityType="Model.Question" />
+          </EntityContainer>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="qid" />
+          </Key>
+          <Property Name="qid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Department_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Semster_No" Type="Int32" Nullable="false" />
+          <Property Name="Subject_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="chapter1_twomarkque" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="chapter1_fifteenmarkque" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="chapter2_twomarkque" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="chapter2_fifteenmarkque" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="chapter3_twomarkque" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="chapter3_fifteenmarkque" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="Coordinators">
+            <EntityTypeMapping TypeName="Model.Coordinator">
+              <MappingFragment StoreEntitySet="Coordinator">
+                <ScalarProperty Name="cid" ColumnName="cid" />
+                <ScalarProperty Name="CoordinatorName" ColumnName="CoordinatorName" />
+                <ScalarProperty Name="scid" ColumnName="scid" />
+                <ScalarProperty Name="dcid" ColumnName="dcid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departments">
+            <EntityTypeMapping TypeName="Model.Department">
+              <MappingFragment StoreEntitySet="Department">
+                <ScalarProperty Name="did" ColumnName="did" />
+                <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+                <ScalarProperty Name="HOD" ColumnName="HOD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Semsters">
+            <EntityTypeMapping TypeName="Model.Semster">
+              <MappingFragment StoreEntitySet="Semster">
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="SemsterNo" ColumnName="SemsterNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subjects">
+            <EntityTypeMapping TypeName="Model.Subject">
+              <MappingFragment StoreEntitySet="Subject">
+                <ScalarProperty Name="subid" ColumnName="subid" />
+                <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Questions">
+            <EntityTypeMapping TypeName="Model.Question">
+              <MappingFragment StoreEntitySet="Question">
+                <ScalarProperty Name="chapter3_fifteenmarkque" ColumnName="chapter3_fifteenmarkque" />
+                <ScalarProperty Name="chapter3_twomarkque" ColumnName="chapter3_twomarkque" />
+                <ScalarProperty Name="chapter2_fifteenmarkque" ColumnName="chapter2_fifteenmarkque" />
+                <ScalarProperty Name="chapter2_twomarkque" ColumnName="chapter2_twomarkque" />
+                <ScalarProperty Name="chapter1_fifteenmarkque" ColumnName="chapter1_fifteenmarkque" />
+                <ScalarProperty Name="chapter1_twomarkque" ColumnName="chapter1_twomarkque" />
+                <ScalarProperty Name="Subject_Name" ColumnName="Subject Name" />
+                <ScalarProperty Name="Semster_No" ColumnName="Semster No" />
+                <ScalarProperty Name="Department_Name" ColumnName="Department Name" />
+                <ScalarProperty Name="qid" ColumnName="qid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

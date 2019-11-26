@@ -1,0 +1,101 @@
+﻿@model IEnumerable<testingemailverification.Models.Question>
+   
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>QUESTIONS LIST..</h2>
+<br />
+
+
+@using (Html.BeginForm("Index", "Randomize", FormMethod.Get))
+{
+     @Html.AntiForgeryToken()
+
+    <text>Choose Department Name</text> @Html.DropDownList("Dept", new SelectList(ViewBag.Department_Name)
+,htmlAttributes: new { @class = "form-control" })
+    <text>Choose Subject Name</text>@Html.DropDownList("subj", new SelectList(ViewBag.Subject_Name),
+htmlAttributes: new { @class = "form-control" })
+    <text>Choose Semster No.</text>@Html.DropDownList("sem", new SelectList(ViewBag.Semster_No),
+htmlAttributes: new { @class = "form-control" })<br />
+    <div class="form-group">
+        <input type="submit" class="btn btn-default" value="CREATE RANDOM QUESTION PAPER" />
+
+    </div>
+}
+
+<table class="table-responsive">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Department_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Semster_No)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Subject_Name)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.chapter1_twomarkque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.chapter1_fifteenmarkque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.chapter2_twomarkque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.chapter2_fifteenmarkque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.chapter3_twomarkque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.chapter3_fifteenmarkque)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Semster_No)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Subject_Name)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.chapter1_twomarkque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.chapter1_fifteenmarkque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.chapter2_twomarkque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.chapter2_fifteenmarkque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.chapter3_twomarkque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.chapter3_fifteenmarkque)
+        </td>
+        <td>
+            @Html.ActionLink("EDIT", "Edit", new { id = item.qid })
+            @Html.ActionLink("DETAILS", "Details", new { id = item.qid })
+        </td>
+
+    </tr>
+    }
+
+</table>
+

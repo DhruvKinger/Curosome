@@ -1,0 +1,42 @@
+﻿@model testingemailverification.Models.Coordinator
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>DETAILS:</h2>
+
+<div>
+    <h4>COORDINATOR</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Department.DepartmentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department.DepartmentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Semster.SemsterNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Semster.SemsterNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CoordinatorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoordinatorName)
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cid }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -55,14 +55,14 @@ namespace testingemailverification
             //   consumerSecret: "");
 
             //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            //  appId: " 990613471134873",
+            //  appSecret: "a7a24a189c9ecf579c72b09513b7b498");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "518633219273-0pvses773jsrrla4cu24mjuubgtsr88n.apps.googleusercontent.com",
+               ClientSecret = "dNUiOxWSXYJzIRBea3FEN1K4"
+            });
         }
     }
 }
